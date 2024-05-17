@@ -1,8 +1,4 @@
-Sure, here is the `home.txt` file content for the HTML page you provided. This file typically contains the plain text content of the webpage:
 
----
-
-```
 Krishnovation
 
 Krishnovation - home
@@ -57,7 +53,7 @@ Contact Us
 Get In Touch With Us
 
 Contact Details
-Phone: 7760698948
+Phone: 8073749889
 Email: krishnovation2024@gmail.com
 
 Location
