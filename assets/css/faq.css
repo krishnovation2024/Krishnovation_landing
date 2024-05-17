@@ -1,0 +1,69 @@
+/* Basic styling for FAQ section */
+.section.listing .container {
+    max-width: 800px;
+    margin: auto;
+}
+.section.listing {
+    margin-top: 15px; /* Remove margin above the section */
+    padding-top: 0; /* Remove padding above the section */
+    margin-bottom: 15px;
+}
+
+.faq {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.faq-heading {
+    font-size: 1.2em;
+    font-weight: bold;
+    cursor: pointer;
+    margin: 0;
+    padding: 20px;
+    background: #f7f7f7;
+    border-bottom: 1px solid #ddd;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.faq-text {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease, padding 0.3s ease;
+    background: #fafafa;
+    padding: 0 15px;
+}
+
+input[type="checkbox"] {
+    display: none;
+}
+
+input[type="checkbox"]:checked + label .faq-text {
+    max-height: 300px; /* Adjust as needed */
+    padding: 15px;
+}
+
+input[type="checkbox"]:checked + label .faq-arrow {
+    transform: rotate(225deg);
+}
+
+/* Adding smooth transition */
+input[type="checkbox"] + label .faq-text {
+    transition: max-height 0.3s ease, padding 0.3s ease;
+}
+
+.faq p {
+    margin: 0;
+}
+
+/* Additional style adjustments */
+.faq-heading:hover {
+    background: #eaeaea;
+}
+
+.faq-heading, .faq-text {
+    transition: background 0.3s ease;
+}

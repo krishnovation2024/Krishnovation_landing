@@ -1,0 +1,834 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- 
+    - primary meta tags
+  -->
+  <title>Krishnovation</title>
+  <meta name="title" content="Krishnovation - home">
+  <meta name="description" content="This is a madical html template made by codewithsadee">
+
+  <!-- 
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/2logo.png" type="image/svg+xml">
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500;700&family=Rubik:wght@400;500;700&display=swap"
+    rel="stylesheet">
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!-- 
+    - preload images
+  -->
+  <!-- <link rel="preload" as="image" href="./assets/images/hero-banner.png"> -->
+  <link rel="preload" as="image" href="./assets/images/herohome.jpg">
+
+</head>
+
+<body id="top">
+
+  <!-- 
+    - #PRELOADER
+  -->
+
+  <div class="preloader" data-preloader>
+    <div class="circle"></div>
+  </div>
+
+
+
+
+
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="header" data-header>
+    <div class="container">
+
+      <a href="home.html" class="logo">
+        <img src="./assets/images/logo.png" width="180" height="50" alt="Krishnovation home">
+      </a>
+
+      <nav class="navbar" data-navbar>
+
+        <div class="navbar-top">
+
+          <a href="home.html" class="logo">
+            <img src="./assets/images/1logo__1_-removebg-preview.png" width="180" height="70" alt="Krishnovation home">
+          </a>
+
+          <button class="nav-close-btn" aria-label="clsoe menu" data-nav-toggler>
+            <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+          </button>
+
+        </div>
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <a href="home.html" class="navbar-link title-md">Home</a>
+          </li>
+
+
+          <li class="navbar-item">
+            <a href="services.html" class="navbar-link title-md">Services</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="aboutus.html" class="navbar-link title-md">About Us</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="faqnew.html" class="navbar-link title-md">FAQ's</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="contactus.html" class="navbar-link title-md">Contact Us</a>
+          </li>
+
+        </ul>
+
+        <!-- <ul class="social-list">
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-facebook"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-pinterest"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-youtube"></ion-icon>
+            </a>
+          </li>
+
+        </ul> -->
+
+      </nav>
+
+      <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
+        <ion-icon name="menu-outline"></ion-icon>
+      </button>
+
+      <a href="#" class="btn has-before title-md" onclick="openGoogleForm()">Make Appointment</a>
+
+      <div class="overlay" data-nav-toggler data-overlay></div>
+
+    </div>
+  </header>
+
+
+
+
+
+  <main>
+    <article>
+
+      <!-- 
+        - #HERO
+      -->
+
+      <section class="section hero" style="background-image: url('./assets/images/heroimg.png')" aria-label="home">
+        <div class="container">
+
+          <div class="hero-content">
+
+            <p class="hero-subtitle has-before" data-reveal="left">Welcome To Krishnovation</p>
+
+            <h1 class="headline-lg hero-title" data-reveal="left">
+              We Care <br>
+             For Your Foot.
+            </h1>
+
+              <div class="wrapper"></div>
+                <button class="btn has-before">
+                  <span class="span title-md" onclick="openGoogleForm()">Make Appointment</span>
+                </button>
+              </div>
+
+          </div>
+
+          <figure class="hero-banner" data-reveal="right">
+            <!-- <img src="./assets/images/hero-banner.png" width="590" height="517" loading="eager" alt="hero banner"
+              class="w-100"> -->
+          </figure>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #SERVICE
+      -->
+
+      <section class="service" aria-label="service">
+        <div style="text-align: center;">
+            <br>
+            <p class="section-subtitle title-lg text-center" id="blog-label" data-reveal="bottom">
+          Services</p>
+            <h2 class="section-title headline-md text-center" data-reveal="bottom">Why Choose Us?</h2>
+            <!-- <h1 class="Services" data-reveal="up">Our Services</h1> -->
+        </div>
+      <div class= "spacing" >
+        <br>
+      </div>
+        
+
+        <div class="container">
+            
+          <ul class="service-list">
+           
+            <li>
+              <div class="service-card" data-reveal="bottom">
+
+                <div class="card-icon">
+                  <img src="./assets/images/icon-1.png" width="71" height="71" loading="lazy" alt="icon">
+                </div>
+
+                <h3 class="headline-sm card-title">
+                  <a href="#">3D-Foot Diagnosis</a>
+                  <br>
+                </h3>
+
+                <p class="card-text">
+                    Discovering your foot's story through 3D-foot diagnosis means we get to understand how you move and what your feet need.
+                </p>
+
+                <button class="btn-circle" aria-label="read more about 3d diagnosis">
+                  <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                </button>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="service-card" data-reveal="bottom">
+
+                <div class="card-icon">
+                  <img src="./assets/images/icon-2.png" width="71" height="71" loading="lazy" alt="icon">
+                </div>
+
+                <h3 class="headline-sm card-title">
+                  <a href="#">Custom Orthotics</a>
+                  <br>
+                </h3>
+
+                <p class="card-text">
+                    Discovering your custom orthotics story through foot diagnosis captures your unique foot traits for precise support.
+                </p>
+
+                <button class="btn-circle" aria-label="read more about Orthotics">
+                  <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                </button>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="service-card" data-reveal="bottom">
+
+                <div class="card-icon">
+                  <img src="./assets/images/icon-3.png" width="71" height="71" loading="lazy" alt="icon">
+                </div>
+
+                <h3 class="headline-sm card-title">
+                  <a href="#">CAD Modeling of Orthatics</a>
+                </h3>
+
+                <p class="card-text">
+                    Discovering your custom orthotics CAD design captures your foot's ideal shape and requirements for a tailored perfect fit.
+                </p>
+
+                <button class="btn-circle" aria-label="read more about CAD Orthotics">
+                  <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                </button>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="service-card" data-reveal="bottom">
+
+                <div class="card-icon">
+                  <img src="./assets/images/icon-4.png" width="71" height="71" loading="lazy" alt="icon">
+                </div>
+
+                <h3 class="headline-sm card-title">
+                  <a href="#">Plantar Pressure Assessment</a>
+                </h3>
+
+                <p class="card-text">
+                    Plantar pressure assessment discovers your feet's unique pressure patterns to design customized orthotics for support.
+                </p>
+
+                <button class="btn-circle" aria-label="read more about Orthopedics">
+                  <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                </button>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #ABOUT
+      -->
+
+      <section class="section about" aria-labelledby="about-label">
+        <div class="container">
+
+          <div class="about-content">
+
+            <p class="section-subtitle title-lg has-after" id="about-label" data-reveal="left">About Us</p>
+
+            <h2 class="headline-md" data-reveal="left">What Is Krishnovation ? </h2>
+
+            <p class="section-text" data-reveal="left">
+              Orthotic and Podiatry Solutions: Your destination for specialized foot care. Led by Dr. Veena P. Waiker, we offer personalized solutions for Orthopedic, sports-related, and diabetic foot conditions. Using advanced technology, we provide custom Orthotic insoles and diabetic foot care services to restore mobility and prevent complications.</p>
+
+            <ul class="tab-list" data-reveal="left">
+
+              <li>
+                <button class="tab-btn active">Mission</button>
+              </li>
+
+
+            </ul>
+
+            <p class="tab-text" data-reveal="left">
+              Our mission is to empower individuals with foot problems to step forward with confidence, by providing exceptional orthotic care that prioritizes personalized attention, evidence based practices and a commitment to improving overall foot health and wellbeing.
+            </p>
+
+            <div class="wrapper">
+
+              <ul class="about-list">
+
+                <li class="about-item" data-reveal="left">
+                  <ion-icon name="checkmark-circle-outline"></ion-icon>
+
+                  <span class="span">Personalized orthotics with 3D foot scanning technology.</span>
+                </li>
+
+                <li class="about-item" data-reveal="left">
+                  <ion-icon name="checkmark-circle-outline"></ion-icon>
+
+                  <span class="span">Comprehensive foot care for all ages and conditions.</span>
+                </li>
+
+                <li class="about-item" data-reveal="left">
+                  <ion-icon name="checkmark-circle-outline"></ion-icon>
+
+                  <span class="span">Affordable deluxe and premium orthotic insole options.</span>
+                </li>
+
+                <li class="about-item" data-reveal="left">
+                  <ion-icon name="checkmark-circle-outline"></ion-icon>
+
+                  <span class="span">Experienced interdisciplinary team of specialists.</span>
+                </li>
+
+              </ul>
+
+            </div>
+
+          </div>
+
+          <figure class="about-banner" data-reveal="right">
+            <img src="./assets/images/aboutus-about-leftbanner.png" width="554" height="678" loading="lazy" alt="about banner"
+              class="w-100">
+          </figure>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #LISTING
+      -->
+
+      <section class="section listing" aria-labelledby="listing-label">
+        <div class="container">
+
+          <ul class="grid-list">
+
+            <li>
+              <p class="section-subtitle title-lg" id="listing-label" data-reveal="left">Our Team</p>
+
+              <h2 class="headline-md" data-reveal="left">Meet Our Team Of Experienced Professionals  </h2>
+            </li>
+<br>
+            <li>
+              <div class="listing-card" data-reveal="bottom">
+
+                <div class="card-icon">
+                  <img src="./assets/images/icon-1.png" width="71" height="71" loading="lazy" alt="icon">
+                </div>
+
+                <div>
+                  <h3 class="headline-sm card-title">Dr. Veena P. Waiker</h3>
+
+                  <p class="card-text">Consltant Plastic Surgeon</p>
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="listing-card" data-reveal="bottom">
+
+                <div class="card-icon">
+                  <img src="./assets/images/icon-2.png" width="71" height="71" loading="lazy" alt="icon">
+                </div>
+
+                <div>
+                  <h3 class="headline-sm card-title">Mehala Devi</h3>
+
+                  <p class="card-text">Orthotist</p>
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="listing-card" data-reveal="bottom">
+
+                <div class="card-icon">
+                  <img src="./assets/images/icon-4.png" width="71" height="71" loading="lazy" alt="icon">
+                </div>
+
+                <div>
+                  <h3 class="headline-sm card-title">Nurse</h3>
+
+                  <p class="card-text">Anusha</p>
+                </div>
+
+              </div>
+            </li>
+
+            <!-- <li>
+              <div class="listing-card" data-reveal="bottom">
+
+                <div class="card-icon">
+                  <img src="./assets/images/icon-5.png" width="71" height="71" loading="lazy" alt="icon">
+                </div>
+
+                <div>
+                  <h3 class="headline-sm card-title">Orthopedics</h3>
+
+                  <p class="card-text">Convallis vulputate</p>
+                </div>
+
+              </div>
+            </li> -->
+
+            <!-- <li>
+              <div class="listing-card" data-reveal="bottom">
+
+                <div class="card-icon">
+                  <img src="./assets/images/icon-6.png" width="71" height="71" loading="lazy" alt="icon">
+                </div>
+
+                <div>
+                  <h3 class="headline-sm card-title">Pediatrics</h3>
+
+                  <p class="card-text">Posuere maecenas</p>
+                </div>
+
+              </div>
+            </li> -->
+
+            <!-- <li>
+              <div class="listing-card" data-reveal="bottom">
+
+                <div class="card-icon">
+                  <img src="./assets/images/icon-7.png" width="71" height="71" loading="lazy" alt="icon">
+                </div>
+
+                <div>
+                  <h3 class="headline-sm card-title">Osteology</h3>
+
+                  <p class="card-text">Nisi nullam</p>
+                </div>
+
+              </div>
+            </li> -->
+
+          </ul>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #BLOG
+      -->
+
+      <section class="section blog" aria-labelledby="blog-label">
+        <div class="container">
+
+          <p class="section-subtitle title-lg text-center" id="blog-label" data-reveal="bottom">
+           Contact Us
+          </p>
+
+          <h2 class="section-title headline-md text-center" data-reveal="bottom">Get In Touch With US</h2>
+
+          <ul class="grid-list">
+
+            <li>
+              <div class="blog-card has-before has-after" data-reveal="bottom">
+
+                <div class="meta-wrapper">
+
+                  <div class="card-meta">
+                    <ion-icon name="person-outline"></ion-icon>
+
+                    <!-- <span class="span">By Admin</span> -->
+                  </div>
+
+
+                </div>
+
+                <h3 class="headline-sm card-title">Contact Details</h3>
+
+                
+
+                <p class="card-text">
+                  
+                  <br>
+                  Phone: <a href="tel:7760698948">7760698948</a>
+                  <br>
+                  Email: <a href="mailto:krishnovation2024@gmail.com">krishnovation2024@gmail.com</a>
+                </p>
+                
+
+              
+
+              </div>
+            </li>
+
+            <li>
+              <div class="blog-card has-before has-after" data-reveal="bottom">
+
+                <div class="meta-wrapper">
+
+                  <div class="card-meta">
+                    <ion-icon name="person-outline"></ion-icon>
+                  </div>
+
+                </div>
+
+                <h3 class="headline-sm card-title">Location</h3>
+
+               
+
+                <p class="card-text">
+              
+                  <br>
+                  Location: <a href="https://maps.app.goo.gl/dk8kH8bVtwvt4ZtM8" target="_blank"> # 744, Nagarabhavi 2nd Stage, 11th Block, Marilingappa Extension, Bengaluru, Karnataka, 560072</a>
+                <br>
+              </p>
+                
+
+              </div>
+            </li>
+
+            <li>
+              <div class="blog-card has-before has-after" data-reveal="bottom">
+
+                <div class="meta-wrapper">
+
+                  <div class="card-meta">
+                    <ion-icon name="person-outline"></ion-icon>
+                  </div>
+
+                </div>
+
+                <h3 class="headline-sm card-title">Working Hours</h3>
+
+               
+
+                <p class="card-text">
+                  <br>
+                  Working Hours: Monday to Saturday, 9:00 AM - 6:00 PM
+                  <br>
+                  <br>
+                  Foot Scan: Monday to Saturday, 9:00 AM - 8:00 PM
+                  <br>
+                </p>
+
+                <!-- <a href="#" class="btn-text title-lg">Read More</a> -->
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+    </article>
+  </main>
+
+
+
+
+
+  <!-- 
+    - #FOOTER
+  -->
+
+  <footer class="footer" style="background-image: url('./assets/images/footer-bg.png')">
+    <div class="container">
+
+      <div class="section footer-top">
+
+        <div class="footer-brand" data-reveal="bottom">
+
+          <a href="home.html" class="logo">
+            <img src="./assets/images/logo.png" width="180" height="50" loading="lazy" alt="krishnovation home">
+          </a>
+
+          <ul class="contact-list has-after">
+
+            <li class="contact-item">
+
+              <div class="item-icon">
+                <ion-icon name="mail-open-outline"></ion-icon>
+              </div>
+
+              <div>
+                <p>
+                  Main Email : <a href="mailto:info@krishnovation.com" class="contact-link">info@krishnovation.com</a>
+                </p>
+
+                <p>
+                  Inquiries : <a href="mailto:krishnovation@gmail.com" class="contact-link">krishnovation2024@gmail.com</a>
+                </p>
+              </div>
+
+            </li>
+
+            <li class="contact-item">
+
+              <div class="item-icon">
+                <ion-icon name="call-outline"></ion-icon>
+              </div>
+
+              <div>
+                <p>
+                  Office Contact Number: <a href="tel:8073749889" class="contact-link">8073749889</a>
+                </p>
+
+                <p>
+                  Mobile Number : <a href="tel:8618367702" class="contact-link">8618367702</a>
+                </p>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </div>
+
+        <div class="footer-list" data-reveal="bottom">
+
+          <p class="headline-sm footer-list-title">About Us</p>
+
+          <p class="text">
+            Orthotic and Podiatry Solutions: Specializing in personalized foot care for Orthopedic & Diabetic conditions, led by Dr. Veena P. Waiker.
+          </p>
+
+
+        </div>
+
+        <ul class="footer-list" data-reveal="bottom">
+
+          <li>
+            <p class="headline-sm footer-list-title">Services</p>
+          </li>
+
+          <!-- <li>
+            <a href="#" class="text footer-link">Conditions</a>
+          </li> -->
+
+          <li>
+            <a href="#" class="text footer-link">Terms and Conditions</a>
+          </li>
+
+          <li>
+            <a href="#" class="text footer-link">Return Policy</a>
+          </li>
+ 
+          <li>
+            <a href="contactus.html" class="text footer-link">Contact Us</a>
+          </li>
+
+        </ul>
+
+        <ul class="footer-list" data-reveal="bottom">
+
+          <li>
+            <p class="headline-sm footer-list-title">Useful Links</p>
+          </li>
+
+          <li>
+            <a href="services.html" class="text footer-link">Services</a>
+          </li>
+
+          <li>
+            <a href="aboutus.html" class="text footer-link">About Us</a>
+          </li>
+
+          <li>
+            <a href="faqnew.html" class="text footer-link">FAQ's</a>
+          </li>
+
+        </ul>
+
+        <div class="footer-list" data-reveal="bottom">
+
+          <div class="footer-list" data-reveal="bottom">
+
+            <p class="headline-sm footer-list-title">Address</p>
+  
+            <address class="address">
+              <ion-icon name="map-outline"></ion-icon>
+  
+              <span class="text">
+                # 744, Nagarabhavi 2nd Stage, 11th Block,
+                  <br>
+                </p> 
+                Marilingappa Extension, Bengaluru, Karnataka, 560072</a>
+              </span>
+            </address>
+  
+          </div>
+
+        </div>
+
+      </div>
+
+      <div class="footer-bottom">
+
+        <p class="text copyright">
+          &copy; Krishnovation 2024 | All Rights Reserved by Krishnovation
+        </p>
+
+        <ul class="social-list">
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-facebook"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-google"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-pinterest"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+
+    </div>
+  </footer>
+
+
+
+
+
+  <!-- 
+    - #BACK TO TOP
+  -->
+
+  <a href="#top" class="back-top-btn" aria-label="back to top" data-back-top-btn>
+    <ion-icon name="chevron-up"></ion-icon>
+  </a>
+
+
+
+
+
+  <!-- 
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!-- 
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>

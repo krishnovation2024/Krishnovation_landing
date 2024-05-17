@@ -1,0 +1,638 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- 
+    - primary meta tags
+  -->
+  <title>Krishnovation</title>
+  <meta name="title" content="Krishnovation - home">
+  <meta name="description" content="This is a madical html template made by codewithsadee">
+
+  <!-- 
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/2logo.png" type="image/svg+xml">
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500;700&family=Rubik:wght@400;500;700&display=swap"
+    rel="stylesheet">
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <link rel="stylesheet" href="./assets/css/faq.css">
+
+  <!-- 
+    - preload images
+  -->
+  <!-- <link rel="preload" as="image" href="./assets/images/hero-banner.png"> -->
+  <!-- <link rel="preload" as="image" href="./assets/images/heroimg.png"> -->
+
+</head>
+
+<body id="top">
+
+  <!-- 
+    - #PRELOADER
+  -->
+
+  <div class="preloader" data-preloader>
+    <div class="circle"></div>
+  </div>
+
+
+
+
+
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="header" data-header>
+    <div class="container">
+
+      <a href="#" class="logo">
+        <img src="./assets/images/logo.png" width="180" height="50" alt="Krishnovation home">
+      </a>
+
+      <nav class="navbar" data-navbar>
+
+        <div class="navbar-top">
+
+          <a href="#" class="logo">
+            <img src="./assets/images/1logo__1_-removebg-preview.png" width="180" height="70" alt="Krishnovation home">
+          </a>
+
+          <button class="nav-close-btn" aria-label="clsoe menu" data-nav-toggler>
+            <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+          </button>
+
+        </div>
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <a href="home.html" class="navbar-link title-md">Home</a>
+          </li>
+
+
+          <li class="navbar-item">
+            <a href="services.html" class="navbar-link title-md">Services</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="aboutus.html" class="navbar-link title-md">About Us</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#" class="navbar-link title-md">FAQ's</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="contactus.html" class="navbar-link title-md">Contact Us</a>
+          </li>
+
+        </ul>
+
+        <!-- <ul class="social-list">
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-facebook"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-pinterest"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-youtube"></ion-icon>
+            </a>
+          </li>
+
+        </ul> -->
+
+      </nav>
+
+      <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
+        <ion-icon name="menu-outline"></ion-icon>
+      </button>
+
+      <a href="#" class="btn has-before title-md" onclick="openGoogleForm()">Make Appointment</a>
+
+      <div class="overlay" data-nav-toggler data-overlay></div>
+
+    </div>
+  </header>
+
+
+
+
+
+  <main>
+    <article>
+
+      <!-- 
+        - #HERO
+      -->
+
+      <section class="section hero" style="background-image: url('./assets/images/heofaqs.jpg')">
+        <div class="container">
+
+          <div class="hero-content">
+
+            <p class="hero-subtitle has-before" data-reveal="left">Frequently Asked Questins</p>
+
+            <h1 class="headline-lg hero-title" data-reveal="left">
+                Foot care, <br>
+                Redefined.
+            </h1>
+
+              <div class="wrapper"></div>
+                <button class="btn has-before">
+                  <span class="span title-md" onclick="openGoogleForm()">Make Appointment</span>
+                </button>
+              </div>
+
+          </div>
+
+          <figure class="hero-banner" data-reveal="right">
+            <!-- <img src="./assets/images/hero-banner.png" width="590" height="517" loading="eager" alt="hero banner"
+              class="w-100"> -->
+          </figure>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #SERVICE
+      -->
+
+      <section class="service" aria-label="service">
+        <div style="text-align: center;">
+            <br>
+            <p class="section-subtitle title-lg text-center" id="blog-label" data-reveal="bottom">
+          Frequently Asked Questins</p>
+            <h2 class="section-title headline-md text-center" data-reveal="bottom">Have Any Doubts?</h2>
+      </section>
+
+
+        <section class="section listing" aria-labelledby="listing-label">
+            <div class="container">
+    
+                <div class='faq'>
+                    <input id='faq-a' type='checkbox'>
+                  <label for='faq-a'>
+                      <p class="faq-heading">1. What are orthotic insoles?</p>
+                     
+                      <p class="faq-text">A. Orthotic insoles are specifically prescribed by a doctor to address particular structural and biomechanical issues of the foot.</p>
+                  </label>
+                  <input id='faq-b' type='checkbox'>
+                  <label for='faq-b'>
+                      <p class="faq-heading">2. How do I know I need orthotic insoles?</p>
+                    
+                      <p class="faq-text">A. There are a wide range of foot problems like heel pain due to calcaneal spurs, plantar fasciitis, flat foot, diabetic neuropathy & diabetic foot deformities. These problems require custom made orthotics to support the foot & relieve pain.</p>
+                  </label>
+                  <input id='faq-c' type='checkbox'>
+                  <label for='faq-c'>
+                      <p class="faq-heading">3. Do I need to wear them all day?</p>
+                      
+                      <p class="faq-text">A. It is advisable to wear for most part of the day when activities are high.</p>
+                  </label>
+                  <input id='faq-d' type='checkbox'>
+                  <label for='faq-d'>
+                      <p class="faq-heading">4. How does an orthotic insole help?</p>
+                   
+                      <p class="faq-text">A. It relieves foot pain, provides support, prevents or halts the progress of foot deformity, offloading to relieve pressure over certain areas of foot, improves balance & gait, relieves stress on the ankle, knee, hip joints & spine.</p>
+                  </label>
+                  <input id='faq-e' type='checkbox'>
+                  <label for='faq-e'>
+                      <p class="faq-heading">5. What is orthotics made of?</p>
+                    
+                      <p class="faq-text">A. Orthotics are made up of durable materials like EVA, polypropylene & many more with varying densities are available. The Orthotist chooses the density required to support the particular foot problem.</p>
+                  </label>
+                  <input id='faq-f' type='checkbox'>
+                  <label for='faq-f'>
+                      <p class="faq-heading">6. Can children be advised with orthotic insoles?</p>
+                     
+                      <p class="faq-text">A. Children above 7 years can wear.</p>
+                  </label>
+                  <input id='faq-g' type='checkbox'>
+                  <label for='faq-g'>
+                      <p class="faq-heading">7. How does an orthotic insole help in diabetic foot?</p>
+                    
+                      <p class="faq-text">A. In diabetic neuropathy, diabetic foot deformities, callosities, Orthotic insoles are custom made to offload high pressure areas by distributing the pressure. In diabetic foot ulcers, the area is completely offloaded by pressure mitigation & this helps healing of ulcers in early stages.</p>
+                  </label>
+                  <input id='faq-h' type='checkbox'>
+                  <label for='faq-h'>
+                      <p class="faq-heading">8. What is the need of 3D foot scan in customizing orthotic insoles?</p>
+                   
+                      <p class="faq-text">A. The 3D foot scan measures foot length & width with high accuracy. Foot arch type is detected too. Output of the 3D foot scan is saved in the software database for CAD modeling of orthotic insoles.</p>
+                  </label>
+                  <input id='faq-i' type='checkbox'>
+                  <label for='faq-i'>
+                      <p class="faq-heading">9. What is pressure scan of foot?</p>
+                    
+                      <p class="faq-text">A. Foot pressure scan is best for analyzing foot structure & evaluating abnormalities. Gait & balance can be assessed too. The pressure exerted on weight bearing areas of sole are recorded with measurement.</p>
+                  </label>
+                  <input id='faq-j' type='checkbox'>
+                  <label for='faq-j'>
+                      <p class="faq-heading">10. How do 3D foot scan & pressure scan help in customizing orthotic insole?</p>
+                   
+                      <p class="faq-text">A. The 3D model of foot with volumetric measurements & arch type & pressure measurement help in designing the orthotic insoles with accurate supports & pressure mitigation to offload high pressure areas on the sole.</p>
+                  </label>
+                  <input id='faq-k' type='checkbox'>
+                  <label for='faq-k'>
+                      <p class="faq-heading">11. How long does it take to adjust to the orthotic insoles?</p>
+                  
+                      <p class="faq-text">A. It takes about 2-3 weeks to feel comfortable using the orthotics day long.</p>
+                  </label>
+                  <input id='faq-l' type='checkbox'>
+                  <label for='faq-l'>
+                      <p class="faq-heading">12. What is the success rate of orthotics?</p>
+                    
+                      <p class="faq-text">A. Studies show that they are highly effective with 85-90% success rate depending on the foot problem.</p>
+                  </label>
+                  <input id='faq-m' type='checkbox'>
+                  <label for='faq-m'>
+                      <p class="faq-heading">13. Are orthotic insoles put on top of regular insoles?</p>
+                     
+                      <p class="faq-text">A. No, orthotic insoles should not be placed on regular insoles.</p>
+                  </label>
+                  <input id='faq-n' type='checkbox'>
+                  <label for='faq-n'>
+                      <p class="faq-heading">14. Can custom orthotics fit in any shoe?</p>
+                     
+                      <p class="faq-text">A. Custom orthotics is to be fitted in shoes with adequate depth.</p>
+                  </label>
+                  <input id='faq-o' type='checkbox'>
+                  <label for='faq-o'>
+                      <p class="faq-heading">15. Can I put orthotics in slippers?</p>
+                     
+                      <p class="faq-text">A. Custom orthotics can be glued to sandals & slippers.</p>
+                  </label>
+              </div>
+              
+    
+            </div>
+          </section>
+
+
+
+
+
+      <!-- 
+        - #BLOG
+      -->
+
+      <section class="section blog" aria-labelledby="blog-label">
+        <div class="container">
+
+          <p class="section-subtitle title-lg text-center" id="blog-label" data-reveal="bottom">
+           Contact Us
+          </p>
+
+          <h2 class="section-title headline-md text-center" data-reveal="bottom">Get In Touch With US</h2>
+
+          <ul class="grid-list">
+
+            <li>
+              <div class="blog-card has-before has-after" data-reveal="bottom">
+
+                <div class="meta-wrapper">
+
+                  <div class="card-meta">
+                    <ion-icon name="person-outline"></ion-icon>
+
+                    <!-- <span class="span">By Admin</span> -->
+                  </div>
+
+
+                </div>
+
+                <h3 class="headline-sm card-title">Contact Details</h3>
+
+                
+
+                <p class="card-text">
+                  
+                  <br>
+                  Phone: <a href="tel:7760698948">7760698948</a>
+                  <br>
+                  Email: <a href="mailto:krishnovation2024@gmail.com">krishnovation2024@gmail.com</a>
+                </p>
+                
+
+              
+
+              </div>
+            </li>
+
+            <li>
+              <div class="blog-card has-before has-after" data-reveal="bottom">
+
+                <div class="meta-wrapper">
+
+                  <div class="card-meta">
+                    <ion-icon name="person-outline"></ion-icon>
+                  </div>
+
+                </div>
+
+                <h3 class="headline-sm card-title">Location</h3>
+
+               
+
+                <p class="card-text">
+              
+                  <br>
+                  Location: <a href="https://maps.app.goo.gl/dk8kH8bVtwvt4ZtM8" target="_blank"> # 744, Nagarabhavi 2nd Stage, 11th Block, Marilingappa Extension, Bengaluru, Karnataka, 560072</a>
+                <br>
+              </p>
+                
+
+              </div>
+            </li>
+
+            <li>
+              <div class="blog-card has-before has-after" data-reveal="bottom">
+
+                <div class="meta-wrapper">
+
+                  <div class="card-meta">
+                    <ion-icon name="person-outline"></ion-icon>
+                  </div>
+
+                </div>
+
+                <h3 class="headline-sm card-title">Working Hours</h3>
+
+               
+
+                <p class="card-text">
+                  <br>
+                  Working Hours: Monday to Saturday, 9:00 AM - 6:00 PM
+                  <br>
+                  <br>
+                  Foot Scan: Monday to Saturday, 9:00 AM - 8:00 PM
+                  <br>
+                </p>
+
+                <!-- <a href="#" class="btn-text title-lg">Read More</a> -->
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+    </article>
+  </main>
+
+
+
+
+
+
+  <!-- 
+    - #FOOTER
+  -->
+
+  <footer class="footer" style="background-image: url('./assets/images/footer-bg.png')">
+    <div class="container">
+
+      <div class="section footer-top">
+
+        <div class="footer-brand" data-reveal="bottom">
+
+          <a href="#" class="logo">
+            <img src="./assets/images/logo.png" width="180" height="50" loading="lazy" alt="krishnovation home">
+          </a>
+
+          <ul class="contact-list has-after">
+
+            <li class="contact-item">
+
+              <div class="item-icon">
+                <ion-icon name="mail-open-outline"></ion-icon>
+              </div>
+
+              <div>
+                <p>
+                  Main Email : <a href="mailto:info@krishnovation.com" class="contact-link">info@krishnovation.com</a>
+                </p>
+
+                <p>
+                  Inquiries : <a href="mailto:krishnovation@gmail.com" class="contact-link">krishnovation2024@gmail.com</a>
+                </p>
+              </div>
+
+            </li>
+
+            <li class="contact-item">
+
+              <div class="item-icon">
+                <ion-icon name="call-outline"></ion-icon>
+              </div>
+
+              <div>
+                <p>
+                  Office Contact Number: <a href="tel:8073749889" class="contact-link">8073749889</a>
+                </p>
+
+                <p>
+                  Mobile Number : <a href="tel:8618367702" class="contact-link">8618367702</a>
+                </p>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </div>
+
+        <div class="footer-list" data-reveal="bottom">
+
+          <p class="headline-sm footer-list-title">About Us</p>
+
+          <p class="text">
+            Orthotic and Podiatry Solutions: Specializing in personalized foot care for Orthopedic & Diabetic conditions, led by Dr. Veena P. Waiker.
+          </p>
+
+
+        </div>
+
+        <ul class="footer-list" data-reveal="bottom">
+
+          <li>
+            <p class="headline-sm footer-list-title">Services</p>
+          </li>
+
+          <!-- <li>
+            <a href="#" class="text footer-link">Conditions</a>
+          </li> -->
+
+          <li>
+            <a href="#" class="text footer-link">Terms and Conditions</a>
+          </li>
+
+          <li>
+            <a href="#" class="text footer-link">Return Policy</a>
+          </li>
+ 
+          <li>
+            <a href="contactus.html" class="text footer-link">Contact Us</a>
+          </li>
+
+        </ul>
+
+        <ul class="footer-list" data-reveal="bottom">
+
+          <li>
+            <p class="headline-sm footer-list-title">Useful Links</p>
+          </li>
+
+          <li>
+            <a href="services.html" class="text footer-link">Services</a>
+          </li>
+
+          <li>
+            <a href="aboutus.html" class="text footer-link">About Us</a>
+          </li>
+
+          <li>
+            <a href="faqnew.html" class="text footer-link">FAQ's</a>
+          </li>
+
+        </ul>
+
+        <div class="footer-list" data-reveal="bottom">
+
+          <div class="footer-list" data-reveal="bottom">
+
+            <p class="headline-sm footer-list-title">Address</p>
+  
+            <address class="address">
+              <ion-icon name="map-outline"></ion-icon>
+  
+              <span class="text">
+                # 744, Nagarabhavi 2nd Stage, 11th Block,
+                  <br>
+                </p> 
+                Marilingappa Extension, Bengaluru, Karnataka, 560072</a>
+              </span>
+            </address>
+  
+          </div>
+
+        </div>
+
+      </div>
+
+      <div class="footer-bottom">
+
+        <p class="text copyright">
+          &copy; Krishnovation 2024 | All Rights Reserved by Krishnovation
+        </p>
+
+        <ul class="social-list">
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-facebook"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-google"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-pinterest"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+
+    </div>
+  </footer>
+
+
+
+
+
+  <!-- 
+    - #BACK TO TOP
+  -->
+
+  <a href="#top" class="back-top-btn" aria-label="back to top" data-back-top-btn>
+    <ion-icon name="chevron-up"></ion-icon>
+  </a>
+
+
+
+
+
+  <!-- 
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!-- 
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
