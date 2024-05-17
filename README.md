@@ -8,4 +8,3 @@
 
 </div>
 
-# Krishnovation_landing
