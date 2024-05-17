@@ -23,22 +23,22 @@ Ionicon
 ## Colors
 
 ``` css
---rich-black-fogra-29: hsl(222, 44%, 8%);
---middle-blue-green_40: hsla(174, 64%, 71%, 0.4);
---midnight-green: hsl(186, 100%, 19%);
---midnight-green_a25: hsla(186, 100%, 19%, 0.25);
---independece: hsl(236, 14%, 39%);
---verdigris: hsl(182, 100%, 35%);
---ming: hsl(186, 72%, 24%);
---space-cadet: hsla(226, 45%, 24%);
---eerie-black: hsl(0, 0%, 13%);
---alice-blue: hsl(187, 25%, 94%);
---gray-web: hsl(0, 0%, 50%);
---gainsboro: hsl(0, 0%, 87%);
---white: hsl(0, 0%, 100%);
---white_a20: hsla(0, 0%, 100%, 0.2);
---white_a10: hsla(0, 0%, 100%, 0.1);
---black: hsl(0, 0%, 0%);
+  --rich-black-fogra-29: #159EEC;
+  --middle-blue-green_40: #159EEC;
+  --midnight-green: #159EEC;
+  --midnight-green_a25: #159EEC;
+  --independece: hsl(236, 14%, 39%);
+  --verdigris: #159EEC;
+  --ming: hsl(227, 72%, 24%);
+  --space-cadet: hsla(226, 45%, 24%);
+  --eerie-black: hsl(0, 0%, 13%);
+  --alice-blue: hsl(187, 25%, 94%);
+  --gray-web: hsl(0, 0%, 50%);
+  --gainsboro: hsl(0, 0%, 87%);
+  --white: hsl(0, 0%, 100%);
+  --white_a20: hsla(0, 0%, 100%, 0.2);
+  --white_a10: hsla(0, 0%, 100%, 0.1);
+  --black: hsl(0, 0%, 0%);
 ```
 
 ## Typography
