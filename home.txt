@@ -1,0 +1,96 @@
+Sure, here is the `home.txt` file content for the HTML page you provided. This file typically contains the plain text content of the webpage:
+
+---
+
+```
+Krishnovation
+
+Krishnovation - home
+This is a medical HTML template made by codewithsadee
+
+Welcome To Krishnovation
+We Care
+For Your Foot.
+
+Make Appointment
+
+Services
+Why Choose Us?
+
+3D-Foot Diagnosis
+Discovering your foot's story through 3D-foot diagnosis means we get to understand how you move and what your feet need.
+
+Custom Orthotics
+Discovering your custom orthotics story through foot diagnosis captures your unique foot traits for precise support.
+
+CAD Modeling of Orthotics
+Discovering your custom orthotics CAD design captures your foot's ideal shape and requirements for a tailored perfect fit.
+
+Plantar Pressure Assessment
+Plantar pressure assessment discovers your feet's unique pressure patterns to design customized orthotics for support.
+
+About Us
+What Is Krishnovation?
+Orthotic and Podiatry Solutions: Your destination for specialized foot care. Led by Dr. Veena P. Waiker, we offer personalized solutions for Orthopedic, sports-related, and diabetic foot conditions. Using advanced technology, we provide custom Orthotic insoles and diabetic foot care services to restore mobility and prevent complications.
+
+Mission
+Our mission is to empower individuals with foot problems to step forward with confidence, by providing exceptional orthotic care that prioritizes personalized attention, evidence based practices and a commitment to improving overall foot health and wellbeing.
+
+Personalized orthotics with 3D foot scanning technology.
+Comprehensive foot care for all ages and conditions.
+Affordable deluxe and premium orthotic insole options.
+Experienced interdisciplinary team of specialists.
+
+Our Team
+Meet Our Team Of Experienced Professionals
+
+Dr. Veena P. Waiker
+Consultant Plastic Surgeon
+
+Mehala Devi
+Orthotist
+
+Anusha
+Nurse
+
+Contact Us
+Get In Touch With Us
+
+Contact Details
+Phone: 7760698948
+Email: krishnovation2024@gmail.com
+
+Location
+Location: # 744, Nagarabhavi 2nd Stage, 11th Block, Marilingappa Extension, Bengaluru, Karnataka, 560072
+
+Working Hours
+Working Hours: Monday to Saturday, 9:00 AM - 6:00 PM
+Foot Scan: Monday to Saturday, 9:00 AM - 8:00 PM
+
+Main Email: info@krishnovation.com
+Inquiries: krishnovation2024@gmail.com
+Office Contact Number: 8073749889
+Mobile Number: 8618367702
+
+Orthotic and Podiatry Solutions: Specializing in personalized foot care for Orthopedic & Diabetic conditions, led by Dr. Veena P. Waiker.
+
+Services
+Terms and Conditions
+Return Policy
+Contact Us
+
+Useful Links
+Services
+About Us
+FAQ's
+
+Address
+# 744, Nagarabhavi 2nd Stage, 11th Block,
+Marilingappa Extension, Bengaluru, Karnataka, 560072
+
+&copy; Krishnovation 2024 | All Rights Reserved by Krishnovation
+```
+
+---
+
+This plain text representation captures the essential information and content from the HTML file, making it easy to understand and reference without the HTML tags.
