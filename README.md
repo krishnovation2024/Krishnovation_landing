@@ -1,10 +1,3 @@
-<div align="center">
-  
+Krishnovation is a fully responsive foot care clinic website, Responsive for all devices, build using HTML, CSS, and JavaScript.
 
-  <h2 align="center">Krishnovation- Hospital Website</h2>
-
-  Krishnovation is a fully responsive foot care clinic website, <br />Responsive for all devices, build using HTML, CSS, and JavaScript.
-
-
-</div>
 
