@@ -579,7 +579,7 @@ body.nav-active { overflow: hidden; }
 .about { padding-block-end: 0; }
 
 .about .container {
-  display: grid;
+  display:flex;
   gap: 20px;
 }
 
