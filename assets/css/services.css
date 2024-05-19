@@ -38,6 +38,10 @@ body {
   height: auto;
   border-radius: 8px;
   margin-bottom: 15px;
+    width:270px;
+    height:150px;
+    border-style: solid;
+    border-color: black;
 }
 
 .grid-item h3 {
