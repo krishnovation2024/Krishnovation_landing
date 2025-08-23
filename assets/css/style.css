@@ -649,7 +649,7 @@ body.nav-active { overflow: hidden; }
   font-family: var(--ff-oswald);
 }
 
-.listing-card .card-text { color: var(--midnight-green);text-align: center; }
+.listing-card .card-text { color: var(--midnight-green);}
 
 
 
