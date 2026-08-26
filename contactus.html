@@ -152,16 +152,8 @@
         <ion-icon name="menu-outline"></ion-icon>
       </button>
 
-      <a href="#" class="btn has-before title-md" onclick="openGoogleForm()">Make Appointment</a>
-
-      <div class="overlay" data-nav-toggler data-overlay></div>
-
-    </div>
+<a href="#" class="btn has-before title-md" onclick="openGoogleForm()">Make Appointment</a>
   </header>
-
-
-
-
 
   <main>
     <article>
@@ -182,11 +174,22 @@
                 with your feet.
             </h1>
 
-              <div class="wrapper"></div>
-                <button class="btn has-before">
-                  <span class="span title-md" onclick="openGoogleForm()">Make Appointment</span>
-                </button>
-              </div>
+           <div class="wrapper" style="display: flex; gap: 12px; flex-wrap: wrap;">
+
+  <button class="btn has-before" onclick="openGoogleForm()">
+    <span class="span title-md">Fill Patient Form</span>
+  </button>
+
+  <a
+    href="https://link.paymentz.ai/v3/orthotics-and-podiatry-clinic-unit-of-kirshnovision/consultation"
+    target="_blank"
+    rel="noopener noreferrer"
+    class="btn has-before"
+  >
+    <span class="span title-md">Book Consultation</span>
+  </a>
+
+</div>
 
           </div>
 
@@ -341,16 +344,20 @@
 
                 <h3 class="headline-sm card-title">Working Hours</h3>
 
-               
+<p class="card-text">
+  <br>
+  <strong>Clinic Hours:</strong><br>
+  Monday - Saturday, 10:30 AM - 5:30 PM
+</p>
 
-                
-                <p class="card-text">
-                  <br>
-                  Foot Scan Services:
-                  <p class="card-text"> Monday - Saturday, 10:00 AM - 6:00 PM</p>
-                  <p class="card-text">Doctor Consultation by Appointment: </p>
-                <p class="card-text">Monday - Saturday, 10:00 AM - 1:00 PM</p>
-                  <br>
+<p class="card-text">
+  <strong>Appointment Hours:</strong><br>
+  Monday - Saturday, 11:00 AM - 4:00 PM
+</p>
+
+<p class="card-text">
+  <strong>Sunday:</strong> Closed
+</p>
                 </p>
 
                 <!-- <a href="#" class="btn-text title-lg">Read More</a> -->
@@ -576,7 +583,12 @@
   -->
   <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
   <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
-
+<!-- OmniGrow Chat Widget -->
+<script
+  src="https://portal.omnigrowcom.in/chat-widget-embed.js"
+  data-widget-uid="449e34ccea77086116a033d9"
+  data-api-url="https://myappzbackend.com/functions/v1/chat-widget-public">
+</script>
 </body>
 
 </html>
